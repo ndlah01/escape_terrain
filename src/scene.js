@@ -180,22 +180,22 @@ export function createScene() {
   gameWindow.appendChild(renderer.domElement);
   
   const gameAudiosounds = {
-    GAbackgroundMusic: new Audio('./public/Audio/Music/Game Song.mp3'),
+    GAbackgroundMusic: new Audio('./public/Audio/Music/Game_Song.mp3'),
     GAbuttonClick: new Audio('./public/Audio/SFX/click.mp3'),
     GAearthquake: new Audio('./public/Audio/SFX/earthquake.mp3'),
-    GAforestAm: new Audio('./public/Audio/SFX/forest ambience.mp3'),
-    GAlavaAm: new Audio('./public/Audio/SFX/lava ambience.mp3'),
-    GAoceanAm: new Audio('./public/Audio/SFX/ocean ambience.mp3'),
+    GAforestAm: new Audio('./public/Audio/SFX/forest_ambience.mp3'),
+    GAlavaAm: new Audio('./public/Audio/SFX/lava_ambience.mp3'),
+    GAoceanAm: new Audio('./public/Audio/SFX/ocean_ambience.mp3'),
     GAfruits: new Audio('./public/Audio/SFX/fruits.mp3'),
     GAmetal: new Audio('./public/Audio/SFX/metal.mp3'),
     GAstone: new Audio('./public/Audio/SFX/stone.mp3'),
     GAwood: new Audio('./public/Audio/SFX/wood.mp3'),
-    GAupSuccess: new Audio('./public/Audio/SFX/upgrade success.mp3'),
-    GAupFailed: new Audio('./public/Audio/SFX/upgrade fail.mp3'),
+    GAupSuccess: new Audio('./public/Audio/SFX/upgrade_success.mp3'),
+    GAupFailed: new Audio('./public/Audio/SFX/upgrade_fail.mp3'),
     GAmeteor: new Audio('./public/Audio/SFX/meteor.mp3'),
     GAtornado: new Audio('./public/Audio/SFX/tornado.mp3'),
     GAthunder: new Audio('./public/Audio/SFX/thunder.mp3'),
-    GAbuild: new Audio('./public/Audio/SFX/building placing.mp3'),
+    GAbuild: new Audio('./public/Audio/SFX/building_placing.mp3'),
 
   };
 
